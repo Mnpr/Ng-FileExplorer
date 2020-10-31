@@ -6,7 +6,6 @@ import {MatIconModule} from '@angular/material/icon';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { OptionBarComponent } from './components/option-bar/option-bar.component';
 import { DirectoryTreeComponent } from './components/directory-tree/directory-tree.component';
 import { FileExplorerComponent } from './components/file-explorer/file-explorer.component';
 import { HeaderComponent } from './components/layout/header/header.component';
@@ -16,7 +15,6 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    OptionBarComponent,
     DirectoryTreeComponent,
     FileExplorerComponent,
     HeaderComponent,
