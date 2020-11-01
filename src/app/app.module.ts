@@ -25,6 +25,8 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+  ],
+  exports: [
     MatIconModule
   ],
   providers: [],

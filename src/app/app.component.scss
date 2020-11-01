@@ -15,16 +15,39 @@ p {
     margin: 0;
 }
 
-
-footer {
-    margin-top: 750px;
-    display: flex;
-    align-items: center;
-    line-height: 20px;
-    
+#page {
+    display: grid;
+    width: 100%;
+    height: 50px;
+    grid-template-areas: "head head"
+                         "toolbar toolbar"
+                         "nav  main"
+                         "nav  foot";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+  }
+  
+#page > app-header {
+    grid-area: head;
+    background-color: #8ca0ff;
 }
 
-footer span {
-    color: red;
+#page > app-toolbar {
+    grid-area: toolbar;
+    background-color: #8ca0ff;
 }
-
+  
+#page > app-directory-tree {
+    grid-area: nav;
+    background-color: #ffa08c;
+}
+  
+#page > app-file-explorer {
+    grid-area: main;
+    background-color: #ffff64;
+}
+  
+#page > app-footer {
+    grid-area: foot;
+    background-color: #8cffa0;
+}
