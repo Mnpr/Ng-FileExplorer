@@ -1,22 +1,11 @@
-const fs = require('fs');
-const url = require('url')
-const path = require('path');
+const express = require('express');
 
-/**
- *  Folder Class
- * 
- * # Methods 
- * - Create()
- * - Delete()
- * - Rename()
- * - Move() | Cut() | Copy()
- * - Select()
- */
+import { FileManager } from './Modules/folder'
 
+const app = express();
+const port = 3000;
 
-class Folder {
-    constructor(public name:string ) {
-    
-    }
-    
-}
+app.get('/', (req, res) => res.send('Express + TypeScript Server !!'));
+app.listen(port, () => {
+    console.log(`⚡️[server]: Server is running at https://localhost:${port}`);
+})
