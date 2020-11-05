@@ -1,7 +1,7 @@
 import { Folder } from './folder'
 
 
-class File extends Folder {
+export class File extends Folder {
     constructor(fileName: string){
         super(fileName);
     }
