@@ -2,7 +2,7 @@
 
 ## Start File Explorer: Front
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+Run `ng serve` for a dev server in the mainDirectory after installing dependencies `npm install`. Navigate to `http://localhost:4200/`.
 
 
 ### Build
@@ -29,7 +29,12 @@ npm install
 npm start
 ```
 
+## Todo 
 
+- [x] Front end Toolbar
+- [ ] Crud Operation on File Class
+- [ ] Directory watch and Create Dir Folder class
+- [ ] API (Client-Server)
 
 
 ***
