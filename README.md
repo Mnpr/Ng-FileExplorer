@@ -34,8 +34,9 @@ npm start
 ## Todo 
 
 - [x] Front end Toolbar
-- [ ] Crud Operation on File Class
-- [ ] Directory watch and Create Dir Folder class
+- [x] Crud Operation on File Class
+- [ ] Crud + Other Directory Operations
+- [ ] Routes and Middlewares
 - [ ] API (Client-Server)
 
 
