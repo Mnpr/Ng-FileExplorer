@@ -1,5 +1,7 @@
 # NgFileExplorer
 
+![](./src/assets/screenshot.jpg)
+
 ## Start File Explorer: Front
 
 Run `ng serve` for a dev server in the mainDirectory after installing dependencies `npm install`. Navigate to `http://localhost:4200/`.
