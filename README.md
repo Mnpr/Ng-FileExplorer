@@ -31,7 +31,7 @@ npm install
 npm start
 ```
 
-## Todo 
+## Status 
 
 - [x] Front end Toolbar
 - [x] Crud Operation on File Class
