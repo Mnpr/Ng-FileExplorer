@@ -1,8 +1,10 @@
 # NgFileExplorer
 
-![](./src/assets/screenshot.jpg)
+File Explorer and Manager with Node(TS) + Angular
 
-## Start File Explorer: Front
+<!-- ![](./src/assets/screenshot.jpg) -->
+
+## Start File Explorer: Front End
 
 Run `ng serve` for a dev server in the mainDirectory after installing dependencies `npm install`. Navigate to `http://localhost:4200/`.
 
@@ -19,7 +21,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Start File Server: Back
+## Start File Server: Back End
 
 
 ### Install Dependencies and run
@@ -29,6 +31,7 @@ cd server/
 npm install
 
 npm start
+
 ```
 
 ## Status 
@@ -38,6 +41,7 @@ npm start
 - [ ] Crud + Other Directory Operations
 - [ ] Routes and Middlewares
 - [ ] API (Client-Server)
+- [ ] User Auth/ Sharing Files
 
 
 ***
